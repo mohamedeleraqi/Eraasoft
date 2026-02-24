@@ -13,5 +13,13 @@ public class Main {
         player1.setPlayerNumber(input.nextInt());
         
         System.out.println("Player Namer : " + player1.getPlayerName() + " \nPlayer Number : " + player1.getPlayerNumber() );
+
+        Player player2 = new Player();
+        System.out.println("Please Enter the Player Name");
+        player2.setPlayerName(input.next());
+        System.out.println("Please Enter the Player Number");
+        player2.setPlayerNumber(input.nextInt());
+        
+        System.out.println("Player Namer : " + player1.getPlayerName() + " \nPlayer Number : " + player1.getPlayerNumber() );
     }
 }
