@@ -20,6 +20,6 @@ public class Main {
         System.out.println("Please Enter the Player Number");
         player2.setPlayerNumber(input.nextInt());
         
-        System.out.println("Player Namer : " + player1.getPlayerName() + " \nPlayer Number : " + player1.getPlayerNumber() );
+        System.out.println("Player Namer : " + player2.getPlayerName() + " \nPlayer Number : " + player2.getPlayerNumber() );
     }
 }
