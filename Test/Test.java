@@ -9,5 +9,9 @@ public class Test {
 
         }
 
+        public String reprint(){
+
+          return "From Test";
+        }
 
 }

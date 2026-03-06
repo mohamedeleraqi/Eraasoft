@@ -6,6 +6,6 @@ public class MainTest {
         
         SubTest sub = new SubTest();
 
-        sub.print();
+        System.out.println(sub.reprint());
     }
 }
