@@ -3,9 +3,11 @@
 
 
         
-        @Override
+       @Override
         public void print(){
-
+                super.print();
+                System.out.println("From SubTest");
+            
 
         }
 
